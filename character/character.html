@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персонаж</title>
+    <link rel="stylesheet" href="character.css">
+</head>
+<body>
+    <button id="backBtn">⬅ Назад в меню</button>
+    
+    <div class="center-characters">
+        <h1>🎮 Выбор персонажа</h1>
+        <div class="character-grid">
+            <div class="character-item" data-character="geek">
+                <img src="../img/geeksLogo.svg" alt="Geek">
+                <h3>Geeks</h3>
+                <p class="card-price">0 coins</p>
+                <div class="characterBtnDiv">
+                    <button class="select-btn">Выбрать</button>
+                </div>
+            </div>
+            <div class="character-item locked" data-character="senior">
+                <img src="../img/geeks_pro.svg" alt="Senior">
+                <h3>GeeksPro</h3>
+                <p class="card-price">300 coins</p>
+                <div class="characterBtnDiv">
+                    <button class="select-btn" disabled>Заблокировано</button>
+                </div>
+            </div>
+            <div class="character-item locked" data-character="pro">
+                <img src="../img/geekStudio.svg" alt="Pro">
+                <h3>GeeksStudio</h3>
+                <p class="card-price">600 coins</p>
+                <div class="characterBtnDiv">
+                    <button class="select-btn" disabled>Заблокировано</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="character.js"></script>
+</body>
+</html> 
