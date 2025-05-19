@@ -28,6 +28,11 @@ th {
 tr:hover {
   background-color: #555;
 }
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+}
 #backBtn {
   position: fixed;
   top: 20px;
